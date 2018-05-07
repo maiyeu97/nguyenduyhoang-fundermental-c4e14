@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="" method="post">
+      <label for="">Ten</label>
+      <input type="text" name="name" value="{{ name }}">
+
+      <br>
+
+      <label for="">Nam sinh</label>
+      <input type="text" name="yob" >
+
+      <br>
+
+      <label for="">Gioi tinh</label>
+      <input type="radio" name="gender" value="0">Nu
+      <input type="radio" name="gender" value="1">Nam
+      <br>
+
+      <label for="">Chieu cao</label>
+      <input type="text" name="height" value="">
+
+      <br>
+
+      <label for="">So dien thoai</label>
+      <input type="text" name="phone" value="">
+      <br>
+      <input type="submit" value="Dang ki">
+    </form>
+
+    {%for messages in get_flashed_messages()%}
+    {%endfor%}
+
+  </body>
+</html>

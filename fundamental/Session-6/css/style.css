@@ -1,0 +1,114 @@
+/* h1 {
+  color:#ff0000
+} */
+
+/* Theo id */
+#first-heading {
+  color:#00ff59
+}
+
+/* Theo class */
+.text-blue{
+  color:blue
+}
+
+
+.text-center{
+  text-align:  center;
+}
+
+
+.text-underline{
+  text-decoration: underline;
+}
+
+
+.no-underline{
+  text-decoration: none;
+}
+
+
+.text-uppercase{
+  text-transform: uppercase;
+}class="w=40 h=200 bg-red d-inline-block">
+
+
+.font-pacifio{
+  font-family: 'Pacifico', cursive;
+}
+
+
+.font-italic{
+  font-style: italic;
+}
+
+.font-bold{
+  font-weight: bold;
+}
+
+.font-size-40px{
+  font-size: 40px
+}
+
+.w-100{
+  width: 100%
+}
+
+.h-500{
+  height: 680px
+}
+
+.bg-gray{
+  background-color: gray
+}
+
+.bg-image{
+  background-image: url("https://anhdephd.com/wp-content/uploads/2017/06/hinh-nen-anime-xinh-dep-ngop-tho-250x320.jpg");
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.br-fixed{
+  background-attachment: fixed; /* parallax */
+}
+
+.border-purple{
+  border: 5px solid #ccc;
+}
+
+.mt-50px {
+  margin-top: 50px
+}
+
+.mr-50px {
+  margin-right: 100px;
+}
+
+.mb-200px {
+  margin-bottom: 200px
+}
+
+#margin-element {
+  margin: 100px 200px;
+}
+.w 100px {
+  height: 100px;
+}
+.m-10px {
+  margin: 10px
+}
+.d flex {
+  display: flex;
+}
+.col-wrap {
+  flex-flow: row wrap;
+}
+.align-content-center {
+  
+}

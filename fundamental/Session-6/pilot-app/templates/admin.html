@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Admin</h1>
+      <table border="1px">
+      <thead>
+        <th>Ten</th>
+        <th>Tuoi</th>
+        <th>Gioi Tinh</th>
+        <th>Chieu Cao</th>
+        <th>Trang Thai</th>
+        <th>Thao Tac</th>
+      </thead>
+
+      <tbody>
+        {% for service in services %}
+        <tr>
+          <td>{{service.name}}</td>
+          <td>{{service.yob}}</td>
+          <td>
+            {%if service.gender == 0%}
+              Nu
+            {%else%}
+              Nam
+            {%endif%}
+          </td>
+          <td>{{service.height}}</td>
+          <td>
+            {%if service.occupied%}
+              Ban
+            {%else%}
+              Ranh
+            {%endif%}
+          <td>
+            <a href="#">Sua</a>
+            <a href="{{url_for("delete", service_id=service.id)}}">Xoa</a>
+          </td>
+          </td>
+        </tr>
+        {%endfor%}
+      </tbody>
+    </table>
+  </body>
+</html>

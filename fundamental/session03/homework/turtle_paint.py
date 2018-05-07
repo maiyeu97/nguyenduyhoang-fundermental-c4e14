@@ -1,0 +1,50 @@
+print('''Ilove you !''')
+from random import randint
+n = randint(10, 300)
+from turtle  import*
+screensize(10000, 10000)
+speed(-1)
+for i in range(7):
+    width(2)
+    color("grey")
+    forward(n)
+    left(51.428)
+penup()
+forward(n)
+pendown()
+left(60)
+for i in range(5):
+    width(2)
+    color("yellow")
+    forward(n)
+    left(60)
+penup()
+forward(n)
+pendown()
+left(72)
+for i in range(4):
+    width(2)
+    color("brown")
+    forward(n)
+    left(72)
+penup()
+forward(n)
+pendown()
+left(90)
+for i in range(3):
+    width(2)
+    color("blue")
+    forward(n)
+    left(90)
+penup()
+forward(n)
+pendown()
+left(120)
+for i in range(2):
+    width(2)
+    color("red")
+    forward(n)
+    left(120)
+
+
+mainloop()

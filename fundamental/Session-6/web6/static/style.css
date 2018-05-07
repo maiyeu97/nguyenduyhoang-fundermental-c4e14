@@ -1,0 +1,33 @@
+.font-lobster{
+  font-family: 'Courgette', cursive;
+
+}
+.mb-350px {
+  margin-bottom: 350px
+}
+.bg-female {
+  background-image: url("image/btn-girl.jpg");
+}
+.bg-male {
+  background-image: url("image/btn-man.jpg");
+}
+.bg-night {
+  background-image: url("image/night.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.w-200px {
+  width: 150px
+}
+.h-200px {
+  height: 150px !important
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+.bg-cover {
+background-size: cover;
+}
+.font-size-20px {
+  font-size: 20px
+}
